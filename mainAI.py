@@ -1,3 +1,4 @@
+from Secret import Google_AI_Key
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -36,7 +37,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-genai.configure(api_key="GOOGLE_AI_kEY")
+genai.configure(api_key=Google_AI_Key)
 
 # Model configuration
 model_name = "tunedModels/eassetdata-nvpmv5itdfsr"
