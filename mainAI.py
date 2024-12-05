@@ -1,4 +1,4 @@
-from .Secret import Google_AI_Key
+from secret import Google_AI_Key
 import streamlit as st
 import pandas as pd
 import plotly.express as px
