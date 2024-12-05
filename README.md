@@ -10,7 +10,7 @@ Customizable Queries: Users can input specific queries to get tailored predictio
 How to Use
 Clone the Repository:
 Bash
-git clone https://github.com/your_username/your_repo_name.git
+git clone https://github.com/EmperorDa8/AI_tunedRisker.git
 Use code with caution.
 
 Install Dependencies:
