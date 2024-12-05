@@ -37,7 +37,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-genai.configure(api_key=os.environ['API_KEY']
+genai.configure(api_key=os.environ['GOOGLE_AI_KEY']
 )
 
 # Model configuration
