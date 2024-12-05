@@ -36,7 +36,7 @@ body {
 </style>
 """, unsafe_allow_html=True)
 
-genai.configure(api_key="Google_API_key")
+genai.configure(api_key="GOOGLE_API_kEY")
 
 # Model configuration
 model_name = "tunedModels/eassetdata-nvpmv5itdfsr"
