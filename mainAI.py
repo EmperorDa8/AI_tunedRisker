@@ -91,10 +91,8 @@ h1, h2, h3 {
 </style>
 """, unsafe_allow_html=True)
 
-# Rest of the previous script remains the same, just with the added CSS above
-
 # Configure Google AI
-genai.configure(api_key=Google_AI_Key)
+genai.configure(api_key=st.secret.Google_AI_Key)
 
 # Model configuration
 model_name = "tunedModels/eassetdata-nvpmv5itdfsr"
