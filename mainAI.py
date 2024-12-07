@@ -92,7 +92,7 @@ h1, h2, h3 {
 """, unsafe_allow_html=True)
 
 # Configure Google AI
-genai.configure(api_key=st.secret.Google_AI_Key)
+genai.configure(api_key=st.secrets['Google_AI_Key'])
 
 # Model configuration
 model_name = "tunedModels/eassetdata-nvpmv5itdfsr"
